@@ -1,0 +1,582 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section
+{
+    display: block;
+}
+
+body
+{
+    line-height: 1;
+    margin: 0px auto;
+}
+
+html, body
+{
+	height: 100%;
+	width: 100%;
+}
+
+ol, ul
+{
+    list-style: none;
+}
+
+blockquote, q
+{
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after
+{
+    content: '';
+    content: none;
+}
+
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a {
+     color: blue;
+}
+
+#registerForm
+{
+    font-family: helvetica, comic-sans-ms;
+    margin:auto;
+    max-width: 550px;
+    text-align: center;
+}
+
+.textAreas
+{
+    display: block;
+    line-height: 50px;
+    text-align: left;
+}
+
+.textAreas input
+{
+    float:right;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+#submitRegister
+{
+    text-align: center;
+}
+
+#connectForm
+{
+	display:inline-block;
+	border-radius: 20px;
+}
+#connection {
+    float: left;
+    text-align: left;
+    margin-top: 30px;
+}
+#connection input {
+    display: inline-block;
+    width: 110px;
+}
+#connection label {
+    display: inline-block;
+}
+
+.registerForm p
+{
+    text-align: center;
+    padding: 10px;
+    color: red;
+}
+
+.connected
+{
+	float: right;
+	width: 300px;
+	height: 100px;
+	padding: 10px;
+	border-radius: 10px;
+}
+#avatar {
+    height: 80px;
+    width: 100px;
+    float: left;
+}
+#allUsers
+{
+    width: 700px;
+    height: 98%;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 3%;
+}
+
+.allColumns
+{
+    border: 1px solid gray;
+}
+
+.eachColumn
+{
+    width: 20%;
+    height: 20px;
+    display: inline-block;
+    border-bottom: 3px solid black;
+}
+
+#firstColumn
+{
+    border-bottom: 10px solid black;
+}
+
+.preview
+{
+    width: 600px;
+    margin: auto;
+    border: 1px solid black;
+    position: relative;
+    word-wrap: break-word;
+    overflow-y: auto;
+    display: block;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: auto;
+}
+.interContent {
+    height: 25px;
+}
+.title {
+    background-color: #99ddff;
+    width: 500px;
+    line-height: 20px;
+    display: inline-block;
+    border-top-left-radius: 15px;
+}
+.tagTitle {
+    background-color: #99ddff;
+    line-height: 20px;
+    border-top-right-radius: 15px;
+}
+.tag {
+    display: block;
+    width: 100px;
+    float: right;
+    line-height: 25px;
+}
+.tag a { 
+    background-image:linear-gradient(#fdfdfd , #bcbcbc);
+    padding: 2.5px;
+    border-radius: 5px;
+    line-height: 25px;
+    font-size: 12px;
+    border: 1px solid #cccccc;
+    text-decoration: none;
+    color: black;
+}
+.comLinks {
+    background-color: #99ddff;
+    padding-bottom: 2px;
+    display: block;
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.comLinks a {
+    margin-right: 50px;
+    border: 1px solid #cccccc;
+    background-image:linear-gradient(#fdfdfd , #bcbcbc);
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 2.5px;
+    text-decoration: none;
+    color: black;
+}
+.ticketContent {
+    display: inline-block;
+    height: 120px;
+    width: 500px;
+    text-align: justify;
+}
+
+.ticketContent2 {
+    display: inline-block;
+    height: 700px;
+    overflow-y: auto;
+    width: 500px;
+    text-align: justify;
+}
+.category
+{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+.preview div > p
+{
+    text-align: center;
+}
+
+textarea
+{
+    width: 350px;
+    height: 250px;
+    resize: none;
+}
+
+form label
+{
+    display: block;
+}
+
+form input
+{
+    display: block;
+}
+
+.center img
+{
+    display: block;
+    margin: 0px auto;
+}
+
+.center
+{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.textButton
+{
+    float: left;
+}
+
+.textArea
+{
+    clear: left;
+    width: 800px;
+    height: 500px;
+    border: 1px solid #cccccc;
+    word-wrap: break-word;
+    overflow-y: auto;
+}
+
+b
+{
+    font-weight: bold;
+}
+
+i
+{
+    font-style: italic;
+}
+
+a
+{
+    cursor: pointer;
+}
+
+.textCenter
+{
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.textCenter a
+{
+    padding-right: 5px;
+}
+
+.modifiedTextArea
+{
+    clear: left;
+    width: 498px;
+    height: 388px;
+    border: 1px solid #cccccc;
+    word-wrap: break-word;
+    overflow-y: auto;
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: #99ddff;
+    border-bottom: 1px solid #cccccc;
+    text-align: center;
+    z-index: 99;
+   /* opacity: 0.85; */
+}
+
+/*.logo img {
+    width: 300px;
+    height: 300px;
+}*/
+
+.header a {
+    font-family: helvetica, comic-sans-ms;
+    color: black;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.header a:hover {
+    font-family: helvetica, comic-sans-ms;
+    color: white;
+}
+
+.header ul {
+    float: left;
+    line-height: 100px;
+}
+
+.header ul li {
+    display: inline;
+    background-image: url("../images/css/logo.png");
+    margin-left:95px;
+    margin-right: 95px;
+}
+
+body {
+    background-image: url("../images/css/background3.jpg");
+}
+
+.comment
+{
+    margin: auto;
+    width: 600px;
+    height: 100px;
+    display: block;
+    overflow-y: auto;
+}
+
+.submitComment
+{
+    margin: auto;
+    width: 120px;
+}
+
+.allComments
+{
+    width: 600px;
+    margin: auto;
+    padding: 2px;
+}
+
+.eachComment
+{
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    word-wrap: break-word;
+}
+
+.authorComment
+{
+    margin-bottom: 10px;
+}
+
+.commentDate
+{
+    float: right;
+}
+
+.eachCommentAdmin
+{
+    margin-bottom: 5px;
+    border: 1px solid #cccccc;
+    word-wrap: break-word;
+    width: 900px;
+    display: block;
+    margin: auto;
+}
+
+.firstEachCommentAdmin
+{
+    margin-bottom: 5px;
+    border: 1px solid #cccccc;
+    word-wrap: break-word;
+    width: 900px;
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.aComment
+{
+    width: 900px;
+    height: 50px;
+    margin: auto;
+}
+
+.commentContent
+{
+    display: inline-block;
+    width: 600px;
+}
+
+.allAdminComments
+{
+    margin-top: 3%;
+}
+#content {
+    margin-top: 100px;
+}
+#searchBar {
+    float: right;
+    margin-right: 50px;
+    width: 500px;
+    border-right: 1px solid #cccccc;
+    line-height: 100px;
+}
+#searchBar input {
+    display: inline-block;
+}
+#searchBar label {
+    display: inline-block;
+}
+#profil {
+    width: 600px;
+    margin-left: 665px;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #99ddff;
+}
+#profil a {
+    border: 1px solid #cccccc;
+    background-image:linear-gradient(#fdfdfd , #bcbcbc);
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 2.5px;
+    float: right;
+    line-height: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+#profil li {
+    line-height: 50px;
+}
+#panelAdmin {
+    width: 400px;
+    height: 100px;
+    background-color: #99ddff;
+    float: right;
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+    text-align: center;
+}
+#panelAdmin a {
+    border: 1px solid #cccccc;
+    background-image:linear-gradient(#fdfdfd , #bcbcbc);
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 2.5px;
+    line-height: 32px;
+    text-decoration: none;
+    color: black;
+}
+#createUser {
+    border: 1px solid #cccccc;
+    background-image:linear-gradient(#fdfdfd , #bcbcbc);
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 2.5px;
+    margin-left: 575px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.adminForm {
+    width: 400px;
+    height: 250px;
+    background-color: #99ddff;
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+    margin: auto;
+    padding: 10px;
+}
+.adminForm label select {
+    float: right;
+}
+.adminForm label {
+    line-height: 20px;
+    display: block;
+}
+.adminForm input {
+    display: inline-block;
+    float: right;
+}
+.adminForm a {
+    border: 1px solid #cccccc;
+    background-image:linear-gradient(#fdfdfd , #bcbcbc);
+    border-radius: 5px;
+    padding: 2.5px;
+    font-size: 14px;
+    line-height: 15px;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color:black;
+}
+.selectAdmin {
+    display: inline-block;
+    float: left;
+}
+.submitAdmin {
+    display: inline-block;
+    float: right;
+}
+.paginArrows {
+    text-align: center;
+}
+#createTicketForm input {
+    display: inline;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#createTicketForm label {
+    display: inline;
+    margin-right: 15px;
+    line-height: 45px;
+}
+#textAreaDiv {
+    width: 920px;
+}
+#colors {
+    float: right;
+    margin-right: 5px;
+}
